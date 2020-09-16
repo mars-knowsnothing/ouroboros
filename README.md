@@ -34,8 +34,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/mars-knowsnothing/ouroboros">
+    <img src="https://banner2.cleanpng.com/20180607/sar/kisspng-ouroboros-ghostmasters-snake-jrmungandr-dragon-golden-snake-5b19e33d2d57b5.7796161215284232291857.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Ouroboros</h3>

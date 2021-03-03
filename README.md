@@ -74,13 +74,8 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About the Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`mars-knowsnothing`, `ouroboros`, `twitter_handle`, `email`
 
 
 ### Built With
@@ -89,8 +84,20 @@ Here's a blank template to get started:
 * [AWS Lambda]()
 * [AWS API Gateway]()
 
+### API Design
+* API Service：ims.cloudapi.com
+    * Collection of Projects: projects/\*
+        * Collection of Environments: projects/\*/environments/\*
+            * Collection of Configurations: projects/\*/environments/\*/configs/\*
+            * Collection of Resources: projects/\*/environments/\*/resources/\*
+        * Collection of Accounts: projects/\*/accounts/\*
+        * Collection of Members: projects/\*/members/\*
 
-
+* API Service：ims：cmdb.cloudapi.com
+    * Collection of CSPs: csps/\*
+        * Collection of Services: csps/\*/services/\*
+            * Collection of Instances: csps/\*/services/\*/instances/\*
+                * Collection of Operations: csps/\*/services/\*/instances/\*/operations/\*
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -126,7 +133,7 @@ Use ouroboros to easily implement Infra as Code in your project or infrastructur
 
 After deploy whole stack of ouroboros, you can use REST API to prepare infrastructure for your cloud native applications.
 
-All scenarios come from AWS Architecture Center.
+All scenarios come from [AWS Architecture Center](https://aws.amazon.com/architecture/).
 
 Currently, below scenarios are supported:
 * AWS Well-Architected LandingZone for Enterprise

@@ -93,7 +93,7 @@
         * Collection of Accounts: projects/\*/accounts/\*
         * Collection of Members: projects/\*/members/\*
 
-* API Service：ims：cmdb.cloudapi.com
+* API Service：cmdb.cloudapi.com
     * Collection of CSPs: csps/\*
         * Collection of Services: csps/\*/services/\*
             * Collection of Instances: csps/\*/services/\*/instances/\*
